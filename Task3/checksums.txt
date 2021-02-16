@@ -1,0 +1,6 @@
+9e519c3f407883c7ba2e65a12c357c12.jpg md5 d41d8cd98f00b204e9800998ecf8427e
+kittens.jpg sha1 08b48b3658f7e6c0a51e426ca529b9f5cac033ed
+Male-chicks.jpg sha256 ef4724a8ad4d1d1c8a32dcec5a8c8ff709c8df10cceac729499d59a52e5f440f
+wrong_hash.txt md5 123
+not_found.txt md5 123
+unknown.txt wtf 123
