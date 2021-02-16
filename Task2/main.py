@@ -24,7 +24,7 @@ def main(argv):
                         active_state = findall(r'ActiveState=(\w+)\n', string)[0]
                     elif 'ExecStart' in string:
                         last_start = findall(r' start_time=\[(\w{3} \d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2} \w{3})\]', string)[0]
-                if not exec_start:
+                if not last_start:
                     print(service_name, 'not found')
                 else:
                     if service_type == '--service':

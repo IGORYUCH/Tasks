@@ -1,6 +1,7 @@
 from subprocess import Popen, PIPE
 from sys import argv
 
+
 def main():
     filename = argv[1]
 
@@ -24,7 +25,8 @@ def main():
                                 dev_filesystem_type = words[1]
                                 dev_free_size = words[4]
                                 dev_mountpoint = words[6]
-                                print(path_to_device, dev_type, dev_size, dev_free_size, dev_filesystem_type, dev_mountpoint)
+                                print(path_to_device, dev_type, dev_size, dev_free_size,
+                                      dev_filesystem_type, dev_mountpoint)
                             else:
                                 print(path_to_device, 'invalid device path')
                 else:
